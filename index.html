@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Math X</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    
+    <!--Title-->
+    <header>
+        <h1>Math X</h1>
+    </header>
+
+    <div id="container">
+
+        <div id="selectors">
+
+            <div id="formula">
+
+                <select id="figure">
+                    <option value="none">Figure</option>
+                    <option value="square">Square</option>
+                </select>
+
+                <select id="operation">
+                    <option value="none">Operation</option>
+                    <option value="area">Area</option>
+                </select>
+
+            </div>
+
+            <div id="values">
+
+                <input type="number" id="base" min="0" placeholder="Base">
+                <input type="number" id="height" min="0" placeholder="Height">
+
+            </div>
+
+        </div>
+
+        <button id="calcualte" onclick="calculate()">Calculate</button>
+
+        <h2 id="result">Result: </h2>
+
+    </div>
+
+
+<script src="app.js"></script>    
+</body>
+</html>

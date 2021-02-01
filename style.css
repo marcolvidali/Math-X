@@ -1,0 +1,107 @@
+/*##########Importings ##########*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+/*########## Defaults ##########*/
+
+*{
+
+    font-family: "Inter";
+
+}
+
+body{
+
+    background-color: #f0c2ff;
+    text-align: center;
+
+}
+
+/*########## Desktop ##########*/
+header h1{
+
+    font-family: "Lobster";
+    font-size: 7vh;
+    margin-top: 10vh;
+    cursor: default;
+    transition: 0.5s;
+
+}
+
+header h1:hover{
+
+    font-size: 8vh;
+
+}
+
+select{
+
+    font-size: 4vh;
+    border-radius: 100vh;
+    padding: 2vh 3vh;
+    margin-top: 10vh;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+select:hover{
+
+    background-color: rgb(228, 228, 228);
+
+}
+
+input{
+    
+    margin-top: 5vh;
+    border-radius: 100vh;
+    border: none;
+    font-size: 4vh;
+    text-align: center;
+    padding: 2vh 3vh;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+input:hover{
+
+    background-color: rgb(228, 228, 228);
+
+}
+
+button{
+    
+    margin-top: 5vh;
+    border-radius: 100vh;
+    border: none;
+    font-size: 4vh;
+    text-align: center;
+    padding: 2vh 3vh;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+button:hover{
+
+    background-color: rgb(228, 228, 228);
+
+}
+
+h2{
+
+    font-size: 5vh;
+    margin-top: 10vh;
+    cursor: default;
+    transition: 0.5s;
+
+}
+
+h2:hover{
+
+    font-size: 6vh;
+
+}
